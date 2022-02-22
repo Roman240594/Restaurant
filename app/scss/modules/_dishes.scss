@@ -1,0 +1,56 @@
+.dishes {
+    padding: 132px 0 150px;
+
+    &__wrapper {
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: 139px;
+    }
+
+    &__inner {
+        justify-content: space-between;
+    }
+
+    &__image {
+        max-width: 452px;
+    }
+
+    &__items {
+        margin: -12px 0;
+    }
+
+    &__item {
+        justify-content: space-between;
+    }
+
+    &__img {
+        max-width: 160px;
+
+        &-wrapper {
+            padding: 12px 30px;
+        }
+    }
+
+    &__description {
+        align-items: center;
+    }
+
+    &__name {
+        font-family: $font-tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 30px;
+        color: $color-black;
+    }
+
+    &__dots {
+        padding: 0 10px;
+
+        &-img {
+            width: 100%;
+        }
+    }
+}

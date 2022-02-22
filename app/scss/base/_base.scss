@@ -21,13 +21,26 @@ img {
     height: auto;
 }
 
-.container {
-    max-width: 1300px;
-    padding: 0 10px;
+.wrapper {
+    max-width: calc(100% - 330px);
     margin: 0 auto;
 }
 
 body {
     overflow-x: hidden;
+}
+
+.title {
+    font-family: Tinos, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: $color-black;
+    text-align: center;
+
+    &_brown {
+        color: $color-brandy;
+    }
 }
 

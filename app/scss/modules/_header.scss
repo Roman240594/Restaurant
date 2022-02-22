@@ -1,0 +1,96 @@
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding-top: 50px;    
+
+    &__button {
+        margin-left: 35px;
+        transition: all 0.5;
+    }
+}
+
+.logo {
+    &__link {
+        max-width: 100px;
+    }
+}
+
+.basket {
+    margin: 0 25px;
+
+    &__img {
+        max-width: 13px;
+    }
+}
+
+.nav {
+    &__inner {
+        border-right: 1px solid $color-white;
+    }
+
+    &__list {
+        margin: 0 -12px;
+    }
+
+    &__item {
+        padding: 0 12px;
+    }
+
+    &__link {
+        font-family: $font-open-bold, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: $color-white;
+        transition: all .3s;
+
+        &:hover {
+            color: $color-brown;
+        }
+    }
+
+    &__tel {
+        margin-left: 34px;
+
+        &-number {
+            &_link {
+                font-family: $font-open-bold, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 25px;
+                color: $color-white;
+                padding-left: 30px;
+                position: relative;
+                transition: all .3s;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    background-image: url(../../assets/icons/phone.svg);
+                    left: 0;
+                    top: 0;
+
+                }
+
+                &:hover {
+                    color: $color-brown;
+                }
+            }
+        }
+
+        &-text {
+            font-family: $font-open-normal;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            color: $color-white;
+            max-width: 155px;
+        }
+    }
+}

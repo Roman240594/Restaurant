@@ -1,0 +1,96 @@
+.menu {
+    background-image: url(../../assets/images/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 226px;
+
+    &__title {
+        color: $color-white;
+        text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin-bottom: 138px;
+    }
+
+    &__inner {
+        margin: 0 -15px;
+        justify-content: space-between;
+    }
+
+    &__item {
+        background-color: $color-white;
+        padding: 80px 62px 30px;
+        text-align: center;
+        position: relative;
+
+        &-wrapper {
+            padding: 0 15px;
+        }
+    }
+
+    &__recommended {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $color-brandy;
+        padding: 7px 12px 11px;
+        font-family: $font-open-normal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        color: $color-black;
+
+    }
+
+    &__img {
+        width: 225px;
+        height: 225px;
+        border-radius: 50%;
+
+        &-wrapper {
+            position: relative;
+            margin-bottom: 22px;
+        }
+    }
+
+    &__price {
+        font-family: $font-cookie;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 33px;
+        color: $color-white;
+        text-align: center;
+        padding: 27px;
+        background-color: $color-brandy;
+        border: 7px solid $color-white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+    }
+
+    &__name {
+        font-family: $font-tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 30px;
+        color: $color-black;
+        margin-bottom: 17px;
+    }
+
+    &__text {
+        font-family: $font-open-normal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-black;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        padding: 14px 64px;
+    }
+}

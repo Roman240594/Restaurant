@@ -1,0 +1,69 @@
+.banner {
+    background-image: url(../assets/images/banner-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 322px 0 300px;
+
+    &__title {
+        font-family: $font-tinos, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 57px;
+        color: $color-brandy;
+        max-width: 556px;
+        text-align: center;
+
+        &_big {
+            font-size: 80px;
+            line-height: 92px;
+            margin-bottom: 12px;
+        }
+
+        &_subtitle {
+            font-family: $font-open-normal;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            color: $color-white;
+            text-align: center;
+            padding: 0 70px;
+            position: relative;
+            margin-bottom: 21px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 61px;
+                height: 2px;
+                background-color: $color-white;
+                top: 50%;
+                bottom: 50%;
+                left: 118px;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 61px;
+                height: 2px;
+                background-color: $color-white;
+                top: 50%;
+                bottom: 50%;
+                right: 118px;
+            }
+        }
+    }    
+    
+    &__button {
+        transition: all .4s;
+    
+        &:hover {
+            background-color: $color-gray;
+            color: $color-brandy;
+            cursor: pointer;
+        }
+    }
+}
